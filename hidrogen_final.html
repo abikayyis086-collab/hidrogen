@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>🌍 Unsur Kimia: Hidrogen (H) — Achmad Kayyis Habibulah</title>
+  <meta name="description" content="Halaman interaktif tentang unsur Hidrogen (H). Dibuat oleh Achmad Kayyis Habibulah | Kelas X-F | MAN 2 Kota Malang." />
+  <style>
+    :root{--bg:#04050a;--card:#0b1220;--muted:#9aa6b2;--accent:#60a5fa;--accent2:#7dd3fc;--accent3:#7c3aed}
+    *{box-sizing:border-box;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;color:var(--fg,#e6eef8)}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg),#071025);-webkit-font-smoothing:antialiased}
+    header{padding:28px 20px;display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-weight:800;font-size:28px;color:#021114;box-shadow:0 12px 30px rgba(6,22,30,0.6)}
+    h1{margin:0;font-size:22px}
+    .subtitle{color:var(--muted);font-size:13px}
+
+    main{max-width:1100px;margin:12px auto;padding:18px;display:grid;grid-template-columns:360px 1fr;gap:20px}
+    .card{background:linear-gradient(180deg,var(--card),#071427);border:1px solid rgba(255,255,255,0.03);padding:16px;border-radius:12px;box-shadow:0 10px 40px rgba(2,6,23,0.6)}
+
+    /* left */
+    .atom{display:flex;flex-direction:column;align-items:center;gap:12px}
+    .atom-visual{width:100%;height:260px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 30% 20%, rgba(96,165,250,0.06), transparent 20%), linear-gradient(180deg, rgba(255,255,255,0.02), transparent)}
+    .nucleus{ text-align:center }
+    .A{font-size:40px;font-weight:800}
+    .Z{color:var(--muted);font-size:13px}
+    .stats{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%}
+    .stat{background:rgba(255,255,255,0.02);padding:10px;border-radius:10px;text-align:center}
+    .controls{display:flex;gap:8px;width:100%}
+    .btn{flex:1;padding:10px;border-radius:12px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--fg);cursor:pointer}
+    .btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#021114;border:none}
+
+    /* right */
+    h2{margin:0;color:var(--accent)}
+    dl{display:grid;grid-template-columns:170px 1fr;gap:8px 14px;margin-top:10px}
+    dt{color:var(--muted);font-size:14px}
+    dd{margin:0;font-weight:700}
+
+    .section{margin-top:14px}
+    .examples{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    .example{background:linear-gradient(180deg,#071427,#041018);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+    .example h4{margin:0 0 6px 0}
+    .example p{margin:0;color:var(--muted);font-size:13px}
+
+    /* carousel */
+    .carousel{position:relative;border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,0.03)}
+    .slides{display:flex;transition:transform 400ms ease}
+    .slide{min-width:100%;flex-shrink:0}
+    .slide img{width:100%;height:320px;object-fit:cover;display:block}
+    .arrow{position:absolute;top:50%;transform:translateY(-50%);background:rgba(2,6,23,0.6);border-radius:999px;border:0;color:white;width:44px;height:44px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+    .arrow.left{left:12px}
+    .arrow.right{right:12px}
+    .dots{display:flex;gap:8px;justify-content:center;margin-top:8px}
+    .dot{width:10px;height:10px;border-radius:999px;background:rgba(255,255,255,0.12);cursor:pointer}
+    .dot.active{background:linear-gradient(90deg,var(--accent),var(--accent3))}
+
+    /* video */
+    .video-wrap{border-radius:12px;overflow:hidden;border:1px solid rgba(255,255,255,0.03);background:linear-gradient(180deg,#021824,#04121a);padding:12px}
+    video{width:100%;height:auto;border-radius:8px}
+
+    footer{max-width:1100px;margin:20px auto;padding:14px;text-align:right;color:var(--muted);font-size:13px}
+
+    @media (max-width:980px){main{grid-template-columns:1fr;padding:12px}.slides img{height:200px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">H</div>
+      <div>
+        <h1>🌍 Unsur Kimia: Hidrogen (H)</h1>
+        <div class="subtitle">Achmad Kayyis Habibulah — Kelas X-F | MAN 2 Kota Malang</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <aside class="card atom fadeIn">
+      <div class="atom-visual">
+        <svg viewBox="0 0 300 300" width="85%" height="85%" aria-hidden>
+          <g transform="translate(150,150)">
+            <circle r="24" fill="#7dd3fc" opacity="0.14"></circle>
+            <circle r="16" fill="#fff"></circle>
+            <circle cx="90" cy="0" r="6" fill="#7dd3fc"></circle>
+          </g>
+        </svg>
+      </div>
+      <div class="nucleus">
+        <div class="A">1</div>
+        <div class="Z">Z = 1 · H</div>
+      </div>
+
+      <div class="stats" style="margin-top:6px">
+        <div class="stat">Simbol<br><strong>H</strong></div>
+        <div class="stat">Nomor Atom<br><strong>1</strong></div>
+        <div class="stat">Massa Atom<br><strong>1.008</strong></div>
+        <div class="stat">Konfigurasi<br><strong>1s¹</strong></div>
+      </div>
+
+      <div class="controls" style="margin-top:10px">
+        <button class="btn" id="btn-copy">Salin Ringkasan</button>
+        <button class="btn primary" id="btn-download">Unduh Halaman</button>
+      </div>
+    </aside>
+
+    <section class="card fadeIn">
+      <h2>Informasi & Sifat Periodik</h2>
+      <dl>
+        <dt>Golongan</dt><dd>1 (Gas non-logam)</dd>
+        <dt>Periode</dt><dd>1</dd>
+        <dt>Sifat</dt><dd>Non-logam — gas diatomik pada kondisi standar</dd>
+        <dt>Jari-jari atom (kovenan)</dt><dd>~31 pm</dd>
+        <dt>Energi ionisasi</dt><dd>13.5984 eV</dd>
+        <dt>Afinitas elektron</dt><dd>0.7542 eV</dd>
+        <dt>Keelektronegatifan</dt><dd>2.20 (Pauling)</dd>
+      </dl>
+
+      <div class="section" id="penggunaan">
+        <h3>Contoh penggunaan dalam kehidupan sehari-hari</h3>
+        <div class="examples">
+          <div class="example">
+            <h4>Gas Hidrogen (H₂) — Bahan bakar</h4>
+            <p>Hidrogen digunakan pada sel bahan bakar; reaksi dengan oksigen menghasilkan air bersih.</p>
+          </div>
+          <div class="example">
+            <h4>Air (H₂O)</h4>
+            <p>Komponen utama air — penting untuk semua organisme hidup.</p>
+          </div>
+          <div class="example">
+            <h4>Industri (amoniak)</h4>
+            <p>Hidrogen digunakan dalam pembuatan amoniak (proses Haber) untuk pupuk.</p>
+          </div>
+          <div class="example">
+            <h4>Reduksi logam</h4>
+            <p>Hidrogen berfungsi sebagai agen reduksi dalam beberapa proses metalurgi.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="gambar">
+        <h3>Gambar ilustratif (geser untuk melihat)</h3>
+        <div class="carousel">
+          <div class="slides" id="slides">
+            <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/H2-eV.png" alt="Molekul H2"></div>
+            <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Fuel_cell_scheme.png" alt="Sel bahan bakar hidrogen"></div>
+            <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hydrogen-flame.png" alt="Nyala hidrogen"></div>
+          </div>
+          <button class="arrow left" id="prev">‹</button>
+          <button class="arrow right" id="next">›</button>
+        </div>
+        <div class="dots" id="dots"></div>
+      </div>
+
+      <div class="section" id="video">
+        <h3>Video edukatif</h3>
+        <p style="color:var(--muted);margin:6px 0">Video berikut diputar dari file lokal (simpan file video dalam folder yang sama dengan file HTML).</p>
+        <div class="video-wrap">
+          <video controls poster="https://upload.wikimedia.org/wikipedia/commons/8/8b/H2-eV.png">
+            <source src="ssstik.io_@fayy.ed_1760938901556.mp4" type="video/mp4">
+            Browser Anda tidak mendukung pemutar video HTML5.
+          </video>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <div>🌍 Dibuat oleh <strong>Achmad Kayyis Habibulah</strong> | Kelas X-F | MAN 2 Kota Malang | © 2025</div>
+  </footer>
+
+  <script>
+    // Carousel logic
+    (function(){
+      const slides = document.getElementById('slides');
+      const total = slides.children.length;
+      let idx = 0;
+      const dots = document.getElementById('dots');
+      function renderDots(){
+        dots.innerHTML='';
+        for(let i=0;i<total;i++){
+          const d = document.createElement('div'); d.className='dot'; if(i===0) d.classList.add('active'); d.dataset.i=i; dots.appendChild(d);
+        }
+      }
+      function update(){ slides.style.transform = `translateX(-${idx*100}%)`; Array.from(dots.children).forEach((n,i)=>n.classList.toggle('active', i===idx)); }
+      document.getElementById('prev').addEventListener('click', ()=>{ idx = (idx-1+total)%total; update(); });
+      document.getElementById('next').addEventListener('click', ()=>{ idx = (idx+1)%total; update(); });
+      dots.addEventListener && dots.addEventListener('click', (e)=>{ if(e.target.dataset && e.target.dataset.i!==undefined){ idx = Number(e.target.dataset.i); update(); }});
+      // swipe
+      let startX=0; slides.addEventListener('touchstart',(e)=>startX=e.touches[0].clientX);
+      slides.addEventListener('touchend',(e)=>{ const endX = (e.changedTouches && e.changedTouches[0].clientX)||0; if(startX-endX>30) idx=(idx+1)%total; else if(endX-startX>30) idx=(idx-1+total)%total; update(); });
+      renderDots();
+    })();
+
+    // copy summary
+    const data = {name:'Hidrogen',symbol:'H',Z:1,A:1.008,config:'1s¹',group:1,period:1,props:{type:'Non-logam (gas diatomik)',radius:31,ion:13.5984,aff:0.7542,en:2.20}};
+    document.getElementById('btn-copy').addEventListener('click', async ()=>{
+      const txt = `Unsur: ${data.name} (${data.symbol})\nA = ${data.A}\nZ = ${data.Z}\nKonfigurasi elektron = ${data.config}\nGolongan = ${data.group}\nPeriode = ${data.period}\n\nSifat:\n- ${data.props.type}\n- Jari-jari atom: ${data.props.radius} pm\n- Energi ionisasi: ${data.props.ion} eV\n- Afinitas elektron: ${data.props.aff} eV\n- Keelektronegatifan: ${data.props.en} (Pauling)`;
+      try{ await navigator.clipboard.writeText(txt); alert('Ringkasan disalin ke clipboard.'); } catch(e){ prompt('Salin manual teks berikut:', txt); }
+    });
+
+    // download html
+    document.getElementById('btn-download').addEventListener('click', ()=>{
+      const html = '<!doctype html>\n' + document.documentElement.outerHTML;
+      const blob = new Blob([html],{type:'text/html'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a'); a.href = url; a.download = 'hidrogen_final.html'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>
